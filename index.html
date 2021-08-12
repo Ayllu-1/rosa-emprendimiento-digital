@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rosita - Landing Page</title>
-    <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|IBM+Plex+Sans:600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Heebo:400,700IBM+Plex+Sans:600" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
     <div class="card">
@@ -35,9 +35,8 @@
                   <div class="col-md-3 grid shadow-2xl">
                     
                     <div class="relative px-4 pt-90 pb-3 rounded-xl" >
-                        
-                      <video src="video/costura.mp4" width="200px" height="400px"></video>
-      
+                     <br>   
+                     <iframe width="560" height="315" src="https://www.youtube.com/embed/Fg70N8hqLqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             
             
@@ -46,7 +45,8 @@
                     
             <div class="relative px-4 pt-90 pb-3 rounded-xl" >
                 
-            aqui ponga una foto
+             
+
 
     </div>
     
@@ -56,8 +56,8 @@
                   <div class="col-md-6 grid ">
                     <div class="card p-3 bg-gray-100 rounded-xl p-8 shadow-2xl">
 
-                                <h1 class="text-lg font-semibold capitalize text-3xl text-gray-400">¿quieres reciclar con sentido?</h1>
-                                <p class="text-gray-500 p-3">Te invitamos para que te inscribas a una nueva forma de vestir incresa y forma parte de un mundo sin desechos textiles, solo deja tus datos y te contactaremos </p>
+                                <h1 class="text-lg font-semibold capitalize text-3xl text-gray-400">¿quieres vestir con sentido?</h1>
+                                <p class="text-gray-500 p-3">Te invitamos para que te inscribas a una nueva forma de vestir ingresa y forma parte de un mundo sin desechos textiles, solo deja tus datos y te contactaremos </p>
                                 <div class="hero-cta">
                                     <button class="btn btn-primary w-100" onclick="if($.trim($('#txt_mail_suscribe').val())==''){alert('es requerido que ingreses tu email');$('#txt_mail_suscribe').focus()}else{ now_download();}"><i class="fab fa-free-code-camp"></i> INGRESA</button>
                                     <div class="lights-toggle">
@@ -85,48 +85,34 @@
 						<div class="row">
 
                                     <div class="col-md-3  grid  max-w-6xl justify-items-center">
-                                            <img width="30%"   class="p-2" src="src/images/login.png" alt="Login sistema">
+                           <img width="300%"class="p-2"src="img/contamina.jpg">
                                     </div>
 
                                     <div class="col-md-8 grid ">
-                                        <h2 id="seccion_conocer_mas" class="mt-2 capitalize text-3xl text-gray-400">Login de usuario</h2>
-	                            <p class="text-start fw-lighter">Obtiene el codigo fuente completo de login de usuario! desarrollamos con las ultimas tecnologias, tales como jquery, html5, boostrap5, php, ajax, json entre otras </p>
-                                <p class="fw-lighter text-start">Este codigo fuente contiene todo el codigo fuente funcional para un login de sistema web, trabaja con encripacion de contraseña mediante passshare script, utiliza comunicacion cliente servidor con ajax, y finalmente envia la solicitud a la base de datos con PHP PDO Presure, metodo que ayda a la proteccion de la informacion ya qie evita la inyeccion sql., ademas de lainterfaz realiada con boostrap 5, que permite facilmente cambio de colores, tipos de botones.</p>
-                                    </div>
+                                        <h2 id="seccion_conocer_mas" class="mt-2 capitalize text-3xl text-gray-400">¿saves cuanto contamina la industria textil?</h2>
+                                      
+                                        <li class="text-start fw-lighter">La industria textil es la segunda mas contaminantedespues de la industria del petroleo </li>
+                                <li class="fw-lighter text-start">La industria textil es la responsable del 20% de la contaminacion del agua</li>
+                                <li class="fw-lighter text-start">El 73% de la ropa termina en vertederos</li> 
+                                    
                               
-						
+                              
+			
 
-                        </div>
-
-                        <section  class="alert alert-warning mt-3 bg-gradient-to-r shadow-2xl from-red-100 to-red-500 hover:from-white-100 hover:to-gray-500">
-                            <div class="container-sm">
-                                <div class="cta-inner section-inner">
-                                    <div class="cta-header text-center text-white">
-                                        <h2 id="seccion_pago" class="section-title mt-0 text-3xl">Login profesional $4.990-.</h2>
-                                        <p class="section-paragraph">Descarga este codigo a un precio rebajado, solo por tiempo limitado.</p>
-                                        <div class="cta-cta">
-                                            <button class="btn btn-primary" onclick="$('#modal_pay_card').modal('show')"><i class="fab fa-cc-visa"></i> Adquirir codigo completo!</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-
-
-                        <div class="alert alert-info">
-                          <span class="text-4xl mt-3 mb-3 justify-items-center">Conoce más, sobre los frameware que funcionan en este login</span>
+                       <div class="alert alert-info">
+                          <span class="text-4xl mt-3 mb-3 justify-items-center"> AYLLU  significa comunidad y lo que hacemos es</span>
                         </div>
 
                         <div class="card row border-0 mt-3 ">
                                 <div class="card mb-3 p-3 ">
                                     <div class="row g-0 p-3">
                                       <div class="col-md-4 grid max-w-6xl justify-items-center shadow-2xl p-2">
-                                        <img class="asset-light"  src="https://www.w3.org/html/logo/downloads/HTML5_Logo_256.png" alt="imagen html5">
+                                        <img class="asset-light"  src="img/ropa.jpg">
                                       </div>
                                       <div class="col-md-8">
                                         <div class="card-body">
-                                          <h5 class="card-title">HTML5</h5>
-                                          <p class="card-text fw-lighter">Nuevas etiquetas semánticas para estructurar los documentos HTML, destinadas a remplazar la necesidad de tener una etiqueta  que identifique cada bloque de la página.</p>
+                                          <h5 class="card-title">Vendemos</h5>
+                                          <p class="card-text fw-lighter">Ropa y Zapatos ademas elaboramos mochilas, bolsos, bananos con la ropa deteriorada</p>
                                           <p class="card-text"><small class="text-muted">Conoce mas en wikipedia <a target="_blank" href="https://es.wikipedia.org/wiki/HTML5">ver contenido</a></small></p>
                                         </div>
                                       </div>
@@ -136,12 +122,12 @@
                                 <div class="card mb-3">
                                     <div class="row g-0 p-3">
                                       <div class="col-md-4 grid max-w-6xl shadow-2xl justify-items-center p-2">
-                                        <img class="asset-light" src="https://st.quantrimang.com/photos/image/2020/07/14/kieu-chu-trong-bootstrap-200.png" alt="Feature 02">
+                                        <img class="asset-light" src="img/dona.jpg" alt="Feature 02">
                                       </div>
                                       <div class="col-md-8">
                                         <div class="card-body">
-                                          <h5 class="card-title">Bootstrap 5</h5>
-                                          <p class="card-text fw-lighter">Bootstrap es un framework CSS y Javascript diseñado para la creación de interfaces limpias y con un diseño responsive. Además, ofrece un amplio abanico de herramientas y funciones, de manera que los usuarios pueden crear prácticamente cualquier tipo de sitio web haciendo uso de los mismos.</p>
+                                          <h5 class="card-title">Donamos</h5>
+                                          <p class="card-text fw-lighter">Donamos un tercio de la ropa en buen estado</p>
                                           <p class="card-text"><small class="text-muted">conoce mas de bootstrap 5 en wikipedia <a target="_blank" href="https://es.wikipedia.org/wiki/Bootstrap_(framework)">ir al contenido</a></small></p>
                                         </div>
                                       </div>
@@ -152,14 +138,14 @@
                                   <div class="card mb-3">
                                     <div class="row g-0 p-3">
                                       <div class="col-md-4 max-w-6xl shadow-2xl grid justify-items-center p-2">
-                                        <img class="asset-light"  src="https://img1.freepng.es/20180601/qfv/kisspng-jquery-web-development-ajax-event-php-ajax-5b111dfd68bdc3.496891201527848445429.jpg" alt="Feature 02">
+                                        <img class="asset-light"  src="img/mochila.jpg">
                                       </div>
                                       <div class="col-md-8">
                                         <div class="card-body">
-                                          <h5 class="card-title">Jquery con Ajax</h5>
-                                          <p class="card-text fw-lighter">AJAX (Asynchronous Javascript and XML) es una técnica de desarrollo web que, al combinar una serie de tecnologías independientes, nos permite intercambiar información entre el servidor y el cliente (un navegador web) de forma asíncrona.<br/>
+                                          <h5 class="card-title">Reciclamos</h5>
+                                          <p class="card-text fw-lighter">combertimos las prendas rotas o manchadas en mochilas, bananos, bolsos. etc.<br/>
 
-                                            Como resultado, obtenemos una navegación ágil, rápida y dinámica; y también la posibilidad de realizar cambios sobre una web sin necesidad de actualizarla.</p>
+                                           </p>
                                           <p class="card-text"><small class="text-muted">conoce más de Jquery con Ajax en wikipedia <a target="_blank" href="https://es.wikipedia.org/wiki/Ajax_framework">ir al contenido</a></small></p>
                                         </div>
                                       </div>
@@ -167,46 +153,7 @@
                                   </div>
 
 
-                                  <div class="card mb-3">
-                                    <div class="row g-0 p-3">
-                                      <div class="col-md-4 shadow-2xl max-w-6xl grid justify-items-center p-2">
-                                        <img class="asset-light" src="https://www.clipartmax.com/png/small/248-2488794_php-dynamic-object-with-array-and-iterative-access-lenguaje-de-programacion-php.png" alt="Feature 02">
-                                      </div>
-                                      <div class="col-md-8">
-                                        <div class="card-body">
-                                          <h5 class="card-title">PHP PDO</h5>
-                                          <p class="card-text fw-lighter">PDO facilita el uso de sentencias preparadas en PHP, que mejoran el rendimiento y la seguridad de la aplicación. Cuando se obtienen, insertan o actualizan datos, el esquema es: PREPARE -> [BIND] -> EXECUTE. Se pueden indicar los parámetros en la sentencia con un interrogante "?" o mediante un nombre específico.</p>
-                        
-                                          <h4>Notas</h4>
-                                          <p class="fw-lighter">¿Cómo evitar la inyeccion de código en PHP?
-                                              Resultado de imagen para pdo evita inyeccion
-                                              Para evitar las inyecciones SQL y ataques XXS es necesario escapar todo lo que pueda ser introducido en cualquier consulta, reemplazando los caracteres especiales por su equivalente textual, de tal forma que se interprete todo el contenido de la variable como si fuera texto. Se conoce como "satinizar" las entradas.</p>
-                                          <p class="card-text"><small class="text-muted">conoce más de PHP PDO en wikipedia <a target="_blank" href="https://es.wikipedia.org/wiki/PHP_Data_Objects">ir al contenido</a></small></p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-
-
-
-
-                                  <div class="card mb-3">
-                                    <div class="row g-0 p-3">
-                                      <div class="col-md-4 shadow-2xl grid justify-items-center p-2 max-w-6xl">
-                                        <img class="asset-light" src="https://mariadb.org/wp-content/uploads/2019/01/cropped-mariadb_org_rgb_v-2.png" alt="Feature 02">
-                                      </div>
-                                      <div class="col-md-8">
-                                        <div class="card-body">
-                                          <h5 class="card-title">MariaDB Motor de base de datos</h5>
-                                          <p class="card-text fw-lighter"> Se deriva de MySQL, una de las base de datos más importantes que ha existido en el mercado, utilizada para manejar grandes cantidades de información.</p>
-                        
-                                            
-                                          <p class="fw-lighter">MariaDB le ofrece la plataforma de desarrollo, el sistema de gestión de base de datos empresarial y los servicios que necesita para apoyar a su empresa en sus instalaciones o en la nube. Diseñada para funcionar en sus instalaciones, en una nube privada, en su nube favorita o en modo híbrido.</p>
-                                          <p class="card-text"><small class="text-muted">conoce más de mariaDB en wikipedia <a target="_blank" href="https://es.wikipedia.org/wiki/MariaDB">ir al contenido</a></small></p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
+                                  
 
 
 
@@ -225,10 +172,10 @@
                   <div class="row">
                     <!--Grid column-->
                     <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                      <h5 class="text-uppercase">Wirelan Freelancer</h5>
+                      <h6 class="text-uppercase">AYLLU</h6>
               
                       <p>
-                        Desarrollamos aplicaciones a medida, tambien generamos codigos fuentes, apartir de tus <necesidades->.</necesidades->
+                        AGAMOS DE NOSOTROS UNA MEJOR COMUNIDAD <necesidades->.</necesidades->
                       </p>
                     </div>
                     <!--Grid column-->
@@ -249,8 +196,8 @@
               
                 <!-- Copyright -->
                 <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-                  © 2020 Wirelan freelancer:
-                  <a class="text-dark" href="https://mdbootstrap.com/">wirelan.cl</a>
+                
+                  <a class="text-dark" href=""></a>
                 </div>
                 <!-- Copyright -->
               </footer>
