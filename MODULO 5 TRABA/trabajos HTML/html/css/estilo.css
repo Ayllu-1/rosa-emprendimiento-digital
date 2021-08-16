@@ -1,0 +1,12 @@
+/*Esto es una "recla CSS"*/
+	.texto-verde li{
+		color: green;
+	}
+     li {
+    	color: red;
+    }
+     #texto-rosa {
+     	color: pink!important;
+     	background-color: black;
+
+     }
